@@ -10,12 +10,25 @@
   /* Add some content at the bottom of the video/page */
   .content {
     position: fixed;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    top: 25%;
+    left: 50%;
+    margin-left: -25%;
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
+    text-align: center;
   }
+
+  .footer {
+    position: fixed;
+    bottom:0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    padding-right: 50px!important;
+    text-align: right;
+  }
+  
   
   /* Style the button used to pause/play the video */
   #myBtn {
@@ -31,4 +44,13 @@
   #myBtn:hover {
     background: #ddd;
     color: black;
+  }
+
+  .header {
+    font-family: 'lemon_milkbold';
+    text-align: center;
+  }
+
+  .small {
+    font-family: 'lemon_milklight';
   }
