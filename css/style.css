@@ -20,13 +20,15 @@
   }
 
   .footer {
+    font-family: 'lemon_milklight';
     position: fixed;
     bottom:0;
     color: #f1f1f1;
     width: 100%;
-    padding: 20px;
+    padding: 20px 20px 20px 0px;
     padding-right: 50px!important;
-    text-align: right;
+    text-align: center;
+    font-size: 14px;
   }
   
   
@@ -49,6 +51,8 @@
   .header {
     font-family: 'lemon_milkbold';
     text-align: center;
+    font-size: 3rem;
+    padding-top:20px
   }
 
   .small {
